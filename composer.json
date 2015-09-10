@@ -1,7 +1,7 @@
 {
   "name":"yii2/hashids",
   "description": "hashids for yii2",
-  "keywords": "hashids yii2",
+  "keywords": ["hashids","yii2"],
   "license": "MIT",
   "author":[
     {
@@ -15,7 +15,7 @@
   },
   "autoload":{
     "psr-4":{
-      "yii2\\hashids":"lib/"
+      "yii2\\hashids\\":"lib/"
     }
   }
 }
