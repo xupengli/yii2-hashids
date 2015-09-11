@@ -2,7 +2,7 @@
 namespace yii2\object;
 
 
-class Hashids extends YiiObject
+class Hashids extends Transfer
 {
     /**
      * @var string
