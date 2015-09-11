@@ -15,7 +15,7 @@
   },
   "autoload":{
     "psr-4":{
-      "yii2\\hashids\\":"lib/"
+      "yii2\\object\\":"lib/"
     }
   }
 }
