@@ -3,7 +3,7 @@ namespace yii2\object;
 
 use yii\base\Object;
 
-class YiiObject extends Object
+class Transfer extends Object
 {
     /**
      * object name
@@ -67,6 +67,5 @@ class YiiObject extends Object
         }
         parent::__call($method, $params);
     }
-
-
+    
 }
