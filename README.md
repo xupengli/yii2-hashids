@@ -5,13 +5,15 @@
 
 ```PHP
 "components" => [
-	"class" => "\yii2\object\Hashids",
-	//本参数已经在"\yii2\object\Hashids"类中初始化，所以可以去掉
-	"objectClass" => "\Hashids\Hashids",
-	//该参数是objectClass类的__construct()方法的参数列表
-	"initArgs" => [],
-	//objectClass类的属性赋值对象
-	"objectProperty" => []
+	"hash" => [
+		"class" => "\yii2\object\Hashids",
+		//本参数已经在"\yii2\object\Hashids"类中初始化，所以可以去掉
+		"objectClass" => "\Hashids\Hashids",
+		//该参数是objectClass类的__construct()方法的参数列表
+		"initArgs" => [],
+		//objectClass类的属性赋值对象
+		"objectProperty" => []	
+	]
 ]
 ```
 
@@ -19,13 +21,15 @@
 
 ```PHP
 "components" => [  
-	"class" => "\yii2\object\Transfer",
-	//本参数需指定要转换的类
-	"objectClass" => "\Hashids\Hashids",
-	//该参数是objectClass类的__construct()方法的参数列表
-	"initArgs" => [],
-	//objectClass类的属性赋值对象
-	"objectProperty" => []
+	"transferName" => [
+		"class" => "\yii2\object\Transfer",
+		//本参数需指定要转换的类
+		"objectClass" => "\Hashids\Hashids",
+		//该参数是objectClass类的__construct()方法的参数列表
+		"initArgs" => [],
+		//objectClass类的属性赋值对象
+		"objectProperty" => []
+	]
 ]
 ```
 
